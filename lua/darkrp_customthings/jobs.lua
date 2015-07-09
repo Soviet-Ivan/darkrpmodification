@@ -59,7 +59,7 @@ TEAM_SWATC = DarkRP.createJob("S.W.A.T Cheif", {
                You can heal your team, but it's not optinal unless theres
                no medics alive. If theres no mayor, you're in charge.]],
         weapons = {"arrest_stick", "unarrest_stick", "weapon_glock2", "weapon_ak472", "ls_sniper", "weapon_m42", "weapon_mp52", "stunstick", "door_ram", "weaponchecker", "med_kit"},
-        command = "swat",
+        command = "swatc",
         max = 1,
         salary = 200,
         admin = 0,
