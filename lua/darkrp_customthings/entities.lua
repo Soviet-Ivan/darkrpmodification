@@ -16,3 +16,13 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomEntityFields
 
 Add entities under the following line:
 ---------------------------------------------------------------------------]]
+DarkRP.createEntity("Gun lab", {
+	ent = "gunlab",
+	model = "models/props_c17/TrapPropeller_Engine.mdl",
+	price = 500,
+	max = 1,
+	cmd = "buygunlab",
+	allowed = TEAM_GUN,
+	category = "Other", 
+	sortOrder = 90,
+})
