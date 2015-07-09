@@ -17,11 +17,68 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
 
 Add jobs under the following line:
 ---------------------------------------------------------------------------]]
+TEAM_DRUG = DarkRP.createJob("Drug Dealer", {
+	color = Color(80, 45, 0, 255),
+	model = "models/player/soldier_stripped.mdl",
+	description = [[You're a drug dealer. You sell anonymous drugs. 
+	weapons = {},
+	command = "drug",
+	max = 3,
+	salary = 15,
+	admin = 0,
+	vote = false,
+	hasLicense = false
+     })
+     
+     TEAM_SWAT = DarkRP.createJob("S.W.A.T", {
+	color = Color(80, 45, 0, 255),
+	model = "models/player/combine_soldier.mdl",
+	description = [[You should stay in the PD
+		until backup is needed.
+		Do everything you can to keep the city safe.]],
+	weapons = {"arrest_stick", "unarrest_stick", "weapon_glock2", "weapon_ak472", "ls_sniper", "weapon_m42", "weapon_mp52", "stunstick", "door_ram", "weaponchecker"},
+	command = "swat",
+	max = 6,
+	salary = 100,
+	admin = 0,
+	vote = true,
+	hasLicense = true,
+ 
+     })
 
+TEAM_SWATM = DarkRP.createJob("S.W.A.T Medic", {
+	color = Color(80, 45, 0, 255),
+	model = "models/player/combine_soldier_prisonguard.mdl",
+	description = [[Your duty is to heal on of your
+		wounded operatives. You should stay in the PD
+		until backup is needed.
+		Do everything you can to keep the city safe.
+		You also keep your team healed.]],
+	weapons = {"arrest_stick", "unarrest_stick", "weapon_glock2", "weapon_ak472", "ls_sniper", "weapon_m42", "weapon_mp52", "stunstick", "door_ram", "weaponchecker", "med_kit"},
+	command = "swatm",
+	max = 2,
+	salary = 100,
+	admin = 0,
+	vote = true,
+	hasLicense = true,
 
-
-
-
+ TEAM_SWATC = DarkRP.createJob("S.W.A.T Cheif", {
+        color = Color(80, 45, 0, 255),
+        model = "models/player/combine_super_soldier.mdl",
+        description = [[You are the in charge of the SWAT
+               You should stay in the PD
+               until backup is needed.
+               Do everything you can to keep the city safe.
+               You can heal your team, but it's not optinal unless theres
+               no medics alive. If theres no mayor, you're in charge.]],
+        weapons = {"arrest_stick", "unarrest_stick", "weapon_glock2", "weapon_ak472", "ls_sniper", "weapon_m42", "weapon_mp52", "stunstick", "door_ram", "weaponchecker", "med_kit"},
+        command = "swat",
+        max = 1,
+        salary = 200,
+        admin = 0,
+        vote = true,
+        hasLicense = true,
+     })
 
 
 
