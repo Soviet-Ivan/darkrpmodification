@@ -47,7 +47,6 @@ TEAM_MAYOR = DarkRP.createJob("Mayor", {
 		end
 	end
 })
-
 TEAM_DRUG = DarkRP.createJob("Drug Dealer", {
 	color = Color(80, 45, 0, 255),
 	model = "models/player/soldier_stripped.mdl",
@@ -61,7 +60,7 @@ TEAM_DRUG = DarkRP.createJob("Drug Dealer", {
 	hasLicense = false
      })
      
-     TEAM_SWAT = DarkRP.createJob("S.W.A.T", {
+ TEAM_SWAT = DarkRP.createJob("S.W.A.T", {
 	color = Color(80, 45, 0, 255),
 	model = "models/player/combine_soldier.mdl",
 	description = [[You should stay in the PD
@@ -76,7 +75,6 @@ TEAM_DRUG = DarkRP.createJob("Drug Dealer", {
 	hasLicense = true,
  
      })
-
 TEAM_SWATM = DarkRP.createJob("S.W.A.T Medic", {
 	color = Color(80, 45, 0, 255),
 	model = "models/player/combine_soldier_prisonguard.mdl",
@@ -92,8 +90,9 @@ TEAM_SWATM = DarkRP.createJob("S.W.A.T Medic", {
 	admin = 0,
 	vote = true,
 	hasLicense = true,
-
- TEAM_SWATC = DarkRP.createJob("S.W.A.T Cheif", {
+      
+      })
+TEAM_SWATC = DarkRP.createJob("S.W.A.T Cheif", {
         color = Color(80, 45, 0, 255),
         model = "models/player/combine_super_soldier.mdl",
         description = [[You are the in charge of the SWAT
@@ -128,6 +127,8 @@ GAMEMODE.CivilProtection = {
 	[TEAM_CHIEF] = true,
 	[TEAM_MAYOR] = true,
 	[TEAM_SWAT] = true,
+	[TEAM_SWATM] = true,
+	[TEAM_SWATC] =true,
 	
 }
 
