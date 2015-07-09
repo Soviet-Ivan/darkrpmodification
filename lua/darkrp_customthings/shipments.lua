@@ -17,7 +17,7 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomShipmentFields
 
 Add shipments and guns under the following line:
 ---------------------------------------------------------------------------]]
- AddCustomShipment("M249", "models/weapons/w_mach_m249para.mdl", "weapon_real_cs_m249", 6000, 10, false, 0, false, {TEAM_GUN, TEAM_ADMIN})
+   AddCustomShipment("M249", "models/weapons/w_mach_m249para.mdl", "weapon_real_cs_m249", 6000, 10, false, 0, false, {TEAM_GUN, TEAM_ADMIN})
    AddCustomShipment("Galil", "models/weapons/w_rif_galil.mdl", "weapon_real_cs_galil", 4000, 10, false, 0, false, {TEAM_GUN, TEAM_ADMIN})
    AddCustomShipment("AK47", "models/weapons/w_rif_ak47.mdl", "weapon_real_cs_ak47", 4000, 10, false, 0, false, {TEAM_GUN, TEAM_ADMIN})
    AddCustomShipment("M4A1", "models/weapons/w_rif_m4a1.mdl", "weapon_real_cs_m4a1", 3900, 10, false, 0, false, {TEAM_GUN, TEAM_ADMIN})
