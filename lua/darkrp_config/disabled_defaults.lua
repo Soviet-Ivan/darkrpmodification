@@ -113,7 +113,7 @@ DarkRP.disabledDefaults["food"] = {
 Door groups
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["doorgroups"] = {
-	["Cops and Mayor only"] = false,
+	["Government Officials"] = false,
 	["Gundealer only"]      = false,
 }
 
