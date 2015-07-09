@@ -17,19 +17,6 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
 
 Add jobs under the following line:
 ---------------------------------------------------------------------------]]
-TEAM_DRUG = DarkRP.createJob("Drug Dealer", {
-	color = Color(80, 45, 0, 255),
-	model = "models/player/soldier_stripped.mdl",
-	description = [[You're a drug dealer. You sell anonymous drugs. 
-	weapons = {},
-	command = "drug",
-	max = 3,
-	salary = 15,
-	admin = 0,
-	vote = false,
-	hasLicense = false
-     })
-     
  TEAM_SWAT = DarkRP.createJob("S.W.A.T", {
 	color = Color(80, 45, 0, 255),
 	model = "models/player/combine_soldier.mdl",
